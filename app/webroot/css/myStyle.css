@@ -57,10 +57,11 @@ a{
     color: #3c8622;
 }
 .thead,.fc-left,.fc-content{
-    background-color: #5d8a47;
+    background-color: #32751b;
+    color: #fff;
 }
 .fc-row>table>thead {
-    background-color: #5d8a47;
+    background-color: #32751b;
     font-weight: normal;
 }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {

@@ -45,10 +45,13 @@ class AppController extends Controller
         // 'Security',
 
     );
+
     public $helpers = array(
-        //'Cache',
-        //'PhpExcel.PhpExcel',
-        'Session'
+        'Session',
+        'Html' => array('className' => 'BoostCake.BoostCakeHtml'),
+        'Form' => array('className' => 'BoostCake.BoostCakeForm'),
+        'Paginator' => array('className' => 'BoostCake.BoostCakePaginator'),
+        'Js'
     );
     public function beforeFilter()
     {

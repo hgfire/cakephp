@@ -12,7 +12,7 @@
                     </ul-->
                     <div class="list-group">
 
-                        <a href="" class="list-group-item active text-center" data-toggle="modal"><span class="glyphicon glyphicon-list"></span>&nbsp &nbsp -Students- </span></a>
+                        <a href="" class="list-group-item active text-center" data-toggle="modal"><span class="glyphicon glyphicon-user"></span>&nbsp &nbsp -Students- </span></a>
                         <a href="/cakephp/students/add" class="list-group-item " data-toggle="modal"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp &nbsp New</span></a>
                         <a href="/cakephp/students/index" class="list-group-item menuL" >
                             <span class="glyphicon glyphicon-edit" ></span>&nbsp &nbsp List <span class="badge pull-right"> <?php echo $students; ?></span>

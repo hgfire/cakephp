@@ -109,3 +109,9 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+
+CakePlugin::load('BoostCake');
+
+//CakePlugin::load('PhpExcel');
+setlocale(LC_TIME, 'frFR.utf8','fra');
