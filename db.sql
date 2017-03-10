@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS algara;
-use 'algara';
+CREATE DATABASE IF NOT EXISTS studentsman;
+use 'studentsman';
 CREATE TABLE IF NOT EXISTS `students` (
   `matricule` varchar(11) NOT NULL,
   `firstname` varchar(32) NOT NULL,
