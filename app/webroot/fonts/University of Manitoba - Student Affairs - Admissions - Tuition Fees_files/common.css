@@ -1,0 +1,213 @@
+/* CSS Document */
+
+body {
+
+	background-color:#F4F4F3;
+	color:#000000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:1.2em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.4;
+	text-align:left;
+		margin-top:0px;
+	background-repeat:repeat-x;
+}
+
+#wrapper {
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+
+	background-color:#F4F4F3;
+}
+
+#wrapper #canvas {
+	width:962px;
+	background-color:#F4F4F3;
+}
+
+#shadow-container .shadow2, #shadow-container .shadow3,
+#shadow-container #header, #shadow-container .taskGroup  {
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+
+#wrapper #canvas #topTasks .shadow2, #wrapper #canvas #topTasks .shadow3, #wrapper #canvas #topTasks .taskGroup{
+	display:inline;
+	float:left;
+	position: relative;
+	/** left: -1px; **/
+	top: -1px;		
+}
+
+#wrapper #canvas #topTasks .shadow1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#shadow-container .shadow1 {
+		background: #F1F0F1;
+
+	}
+ 
+#shadow-container .shadow2 {
+	background: #DBDADB;
+}
+ 
+#shadow-container .shadow3 {
+	background: #B8B6B8;
+}
+
+
+#wrapper #canvas #header {
+	width:961px;
+	height:91px;
+	background-image:url('//umanitoba.ca/images/universal/top_banner.jpg');
+}
+
+
+
+#wrapper #canvas #header #logo{
+	padding-left:10px;
+	width:220px;
+	float:left;
+	display:inline;
+}
+
+#wrapper #canvas #header #facName {
+	float:left;
+	display:inline;
+	width:370px;
+	color:#4D2700;
+	font-size:28px;
+
+}
+
+#wrapper #canvas #header #facName #top_level_name{
+	font-size:10px;
+}
+
+#wrapper #canvas #header #facName a{
+	color:#4D2700;
+	text-decoration:none;
+
+}
+#wrapper #canvas #header #facName img
+{
+	border:0;	
+}
+#wrapper #canvas #header #facName a:hover{
+	text-decoration:underline;
+}
+
+#wrapper #canvas #header #topNav {
+	float:left;
+	display:inline;
+	width:355px;
+	padding-top:10px;
+}
+
+#wrapper #canvas #header #topNav #UtilityLinks {
+	float:right;
+	/** width:395px; **/
+    width:75%;
+	display:inline;
+	font-size:10px;
+	color:#4D2700;
+	/** padding-left:40px; **/
+    padding-right:3px;
+}
+
+#wrapper #canvas #header #topNav #UtilityLinks a {
+
+	font-size:11px;
+	font-weight:bold;
+
+	color:#4D2700;
+	text-decoration:none
+}
+
+#wrapper #canvas #header #topNav #UtilityLinks a:hover {
+	text-decoration: underline;
+}
+
+#wrapper #canvas #header #topNav #search {
+	float:left;
+	display:inline;
+	width:395px;
+	padding-top:10px;
+}
+
+#wrapper #canvas #header #topNav #search #parameters {
+	width:110px;
+	font-size:10px;
+	font-weight:bold;
+	display:inline;
+	float:left;
+	text-align:right;
+	line-height:8px;
+	padding-right:8px;
+	vertical-align:top;
+    
+}
+#searchTypeBtn
+{
+    /** padding:0; **/
+    /** margin:0; **/
+}
+#people
+{
+    /** padding:0; **/
+    /** margin:0; **/
+}
+#wrapper #canvas #header #topNav #search #googleSearch {
+	width:135px;
+	display:inline;
+	float:left;
+	padding-top:7px;
+
+}
+#wrapper #canvas #header #topNav #search #googleButton {
+	width:95px;
+	display:inline;
+	float:left;
+	padding-top:5px;
+	padding-left:17px;
+
+}
+
+#wrapper #canvas #center {
+	padding-top:10px;
+	height:447px;
+	width:100%;
+}
+.imageList a:link
+{
+    border: none;
+
+}
+.imageList a:visited
+{
+    border: none;
+}
+.imageList a:hover
+{
+    border: none;
+}
+.imageList a:active
+{
+    border: none;
+}
+.imageList img
+{
+    border: none;
+    text-decoration: none;
+}
+
+.hidden{
+	display:none;	
+}

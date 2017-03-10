@@ -1,0 +1,232 @@
+/* CSS Document */
+
+
+
+#wrapper #canvas #center {
+	padding-top:15px;
+	min-height:320px;
+	width:961px;
+}
+
+#wrapper #canvas #center #centerContent {
+	width:535px;
+	color:#717073;
+	height:310px;
+	display:inline;
+	float:left;
+    
+}
+
+html body div#wrapper div#canvas div#center div#centerContent.col3w{
+	width:735px;	
+}
+
+#wrapper #canvas #center #centerContent a, #wrapper #canvas #center #rightBar a {
+	color:#005d61;
+	text-decoration:none;
+}
+
+#wrapper #canvas #center #centerContent a:hover{
+	text-decoration:underline;
+}	
+
+#wrapper #canvas #center #centerContent #centerHeader {
+	font-size:26px;
+	padding-left: 15px;
+	padding-top:0px;
+	font-weight:bold;
+	color:#717073;
+    border-color:#d9d9d8;
+    
+	line-height:28px;
+}
+
+#wrapper #canvas #center #centerContent #centerInfo {
+	font-size:12px;
+	padding-left:15px;
+	padding-top:10px;
+	color:#717073;
+    padding-bottom:20px;
+    border-color:#d9d9d8;
+    padding-right:15px;
+}
+
+#wrapper #canvas #center #rightBar {
+	padding-left:15px;
+	color:#717073;
+	display:inline;
+	float:left;
+	width:251px;
+	font-size:12px;
+	min-height:320px;
+	font-size:12px;
+	
+	
+	
+}
+
+#wrapper #canvas #center #rightBar img{
+    padding: 0px;
+}
+#wrapper #canvas #center #centerContent #centerInfo img {
+    padding: 5px;
+}
+#wrapper #canvas #center #centerInfo a img {
+    
+    
+    border:none;
+}
+#wrapper #canvas #center #centerInfo a:link img {
+    
+    
+    border:none;
+}
+#wrapper #canvas #center #centerInfo a:active img {
+    
+    
+    border:none;
+}
+#wrapper #canvas #center #centerInfo a:visited img {
+    
+    
+    border:none;
+}
+#wrapper #canvas #center #centerInfo a:hover img {
+    
+    
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+#wrapper #canvas #center #rightBar .taskGroup {
+	width:250px;
+/**	height:90px; **/
+    left:0px; /** was -1px **/
+    top:-1px;
+    position:relative;
+    border-bottom:1px solid;
+    border-bottom-color:#eeeeed !important;
+	background-color:#FFFFFF;
+	
+	font-family: Helvetica, Arial, sans-serif;
+
+
+
+}
+
+#wrapper #canvas #center #rightBar .taskGroup .heading{
+	background-image:url(/images/universal/topTask-header.gif);
+    background-repeat:no-repeat;
+	height:22px;
+	color:#FFFFFF;
+	padding-left:10px;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+
+#wrapper #canvas #center #rightBar .taskGroup .content{
+	padding-left:10px;
+/**	height:90px; **/
+}
+
+#wrapper #canvas #center #rightBar .taskGroup .content a{
+	color:#005d61;
+	font-size:11px;
+	text-decoration:none;
+}
+#wrapper #canvas #center #rightBar .taskGroup .content ul{
+    padding:0px;
+    margin:0px;
+}
+#wrapper #canvas #center #rightBar .taskGroup .content ul li{
+    padding:0px;
+    margin:0px;
+    color:#005d61;
+    font-size:11px;
+    list-style-type:none;
+	line-height:13px;
+}
+#wrapper #canvas #center #rightBar .taskGroup .content a:hover{
+	text-decoration:underline;
+}
+#wrapper #canvas #center #rightBar .layer1
+{
+    border-bottom:1px solid;
+    border-bottom-color:#eeeeed !important;
+}
+#wrapper #canvas #center #rightBar .layer2
+{
+    border-right:1px solid;
+    border-right-color:#EEEEED !important;
+    border-bottom:1px solid;
+    border-bottom-color:#d3d3d3 !important;
+    border-left:1px solid;
+    border-left-color:#EEEEED !important;
+}
+#wrapper #canvas #center #rightBar .layer3
+{
+
+
+    border-right:1px solid;
+    border-right-color:#EEEEED !important;
+    border-bottom:1px solid;
+    border-bottom-color:#d3d3d3 !important;
+    border-left:1px solid;
+    border-left-color:#EEEEED !important;
+}
+#wrapper #canvas #center #rightBar .layer4
+{
+    border-color:#E2DDDB !important;
+	/** border-style:solid;**/
+    border-top:1px solid;
+    border-right:1px solid;
+    border-bottom:1px solid;
+    border-left:1px solid;
+}
+
+
+//Up-size font class
+
+#wrapper.super-sized #canvas #center #leftNav {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#wrapper.super-sized #canvas #center #leftNav a {
+	font-size: 12px;
+}
+
+#wrapper.super-sized .taskGroup .content a, #wrapper #canvas #news_events #events .layer2 .layer3 .layer4 .heading a {
+   font-size: 12px;
+}
+
+#wrapper..super-sized .taskGroup .content {
+    font-size: 12px;
+    padding-top: 0;
+}
+
+#wrapper.super-sized #canvas #center #centerContent #centerInfo {
+    font-size: 13px;
+}
+
+#wrapper.super-sized #canvas #topTasks .taskGroup .content a {
+    font-size: 12px;
+}
+
+#wrapper.super-sized #canvas {
+	color: #333333;
+}
+
+#wrapper.super-sized #canvas #center #centerContent #centerInfo {
+	color: #333333;
+}
